@@ -144,18 +144,21 @@ html { scroll-behavior: smooth; }
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   margin-bottom: 20px;
   transition: transform 0.2s;
+  width: 100%;
 }
 
-.bubble:hover { transform: translateY(-2px); }
+  .bubble:hover { transform: translateY(-2px); }
 
 .content-container {
   display: flex;
   align-items: flex-start;
   gap: 30px;
-  max-width: 1000px;
-  margin: 0 auto 40px auto;
+  width: 100%;
+  padding: 0 5%;
+  margin: 0 0 40px 0;
+  box-sizing: border-box;
 }
-
+  
 .lists { flex: 1; }
 
 .side-image img {
