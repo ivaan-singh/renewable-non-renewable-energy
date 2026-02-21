@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renewable and Non-Renewable Energy</title>
+
+<style>
+
+/* ---------- Video Wrapper (Responsive) ---------- */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* What it took */
+.what-it-took-banner {
+  margin: 60px auto;
+  padding: 25px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #dfefff, #fefefe);
+  border-radius: 15px;
+  max-width: 1000px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.what-it-took-banner:hover {
+  transform: translateY(-3px);
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(8px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.overlay-content {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+}
+
+.overlay button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #dfefff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Header bubbles */
+.header-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bubble-inline {
+  display: inline-block;
+  background-color: #fefefe;
+  border-radius: 15px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 10px auto;
+  transition: transform 0.2s;
+}
+
+.bubble-inline:hover {
+  transform: translateY(-2px);
+}
+
+#Title { font-size: 28px; margin: 0; }
+#LearningObjective { font-size: 16px; margin: 10px 0 20px 0; }
+
+/* Anchor nav */
+.anchor-nav-container { text-align: center; margin-bottom: 40px; }
+
+.anchor-nav {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(255,255,255,0.9);
+  border-radius: 50px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 20px;
+  z-index: 1000;
+  gap: 10px;
+}
+
+html { scroll-behavior: smooth; }
+
+#A, #B, #C, #D, #E { scroll-margin-top: 100px; }
+
+.anchor-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 30px;
+  border: 2px solid #333;
+  transition: 0.3s;
+}
+
+.anchor-nav a:hover {
+  background-color: #dfefff;
+  transform: translateY(-2px);
+}
+
+/* Bubbles */
+.bubble {
+  background-color: #fefefe;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+  transition: transform 0.2s;
+}
+
+.bubble:hover { transform: translateY(-2px); }
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+}
+
+.lists { flex: 1; }
+
+.side-image img {
+  max-width: 250px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: 0.2s;
+}
+
+.side-image img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+ul, ol { margin-top: 10px; margin-left: 25px; line-height: 1.6; }
+
+@media (max-width: 768px) {
+  .content-container { flex-direction: column; }
+  .side-image img { max-width: 100%; margin-top: 20px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header-container">
+  <h1 id="Title" class="bubble-inline">Renewable and Non-Renewable Energy</h1>
+  <p id="LearningObjective" class="bubble-inline">
+    L.O.- To delve into renewable and non-renewable resources of energy
+  </p>
+</div>
+
+<div class="anchor-nav-container">
+  <div class="anchor-nav">
+    <a href="#A">A) Definitions</a>
+    <a href="#B">B) Renewable Energy</a>
+    <a href="#C">C) Non-Renewable Energy</a>
+    <a href="#D">D) Credits</a>
+    <a href="#E">E) Video</a>
+  </div>
+</div>
+
+<!-- A -->
+<div class="content-container" id="A">
+  <div class="lists bubble">
+    <ol type="A">
+      <li><h3>Definitions</h3></li>
+    </ol>
+    <ul>
+      <li>Renewable Energy - energy from a source that is not depleted when used.</li>
+      <li>Non-Renewable Energy - energy from a source that is depleted when used.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- B -->
+<div class="content-container" id="B">
+  <div class="lists bubble">
+    <ol type="A" start="2">
+      <li><h3>Renewable Energy</h3></li>
+    </ol>
+    <ul>
+      <li>Solar Energy</li>
+      <li>Hydro Energy</li>
+      <li>Ocean Energy</li>
+      <li>Biomass Energy</li>
+      <li>Wind Energy</li>
+      <li>Geothermal Energy</li>
+    </ul>
+  </div>
+</div>
+
+<!-- C -->
+<div class="content-container" id="C">
+  <div class="lists bubble">
+    <ol type="A" start="3">
+      <li><h3>Non-Renewable Energy</h3></li>
+    </ol>
+    <ul>
+      <li>Coal</li>
+      <li>Gas</li>
+      <li>Oil</li>
+      <li>CNG / LPG</li>
+      <li>Uranium</li>
+    </ul>
+  </div>
+</div>
+
+<!-- D -->
+<div class="content-container" id="D">
+  <div class="lists bubble">
+    <ol type="A" start="4">
+      <li><h3>Credits</h3></li>
+    </ol>
+    <ul>
+      <li>
+        <a href="https://www.priyamstudycentre.com/wp-content/uploads/2020/11/renewable-energy-sources.jpg" target="_blank">
+          Renewable Energy Image Source
+        </a>
+      </li>
+      <li>
+        <a href="https://polarpedia.eu/wp-content/uploads/2019/05/Nonrenewableenergy.jpg" target="_blank">
+          Non-Renewable Energy Image Source
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- E -->
+<div class="content-container" id="E">
+  <div class="lists bubble">
+    <ol type="A" start="5">
+      <li><h3>Educational Video</h3></li>
+    </ol>
+
+    <p>
+      Watch this video to better understand renewable and non-renewable energy.
+    </p>
+
+    <div class="video-wrapper">
+      <iframe 
+        src="https://www.youtube.com/embed/ViXtT8c4z-c"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+<!-- What It Took -->
+<div class="what-it-took-banner" onclick="openPanel()">
+  What It Took →
+</div>
+
+<div id="whatPanel" class="overlay">
+  <div class="overlay-content">
+    <h1>What It Took</h1>
+    <ul>
+      <li>
+        Total Lines of Code: <span id="lineCount"></span>
+        <button onclick="revealStat('lineCount', this)">Reveal</button>
+      </li>
+      <li>
+        File Size: <span id="fileSize"></span>
+        <button onclick="revealStat('fileSize', this)">Reveal</button>
+      </li>
+    </ul>
+    <button onclick="closePanel()">← Back</button>
+  </div>
+</div>
+
+<script>
+const slowStart = 0.6;
+const easingPower = 5;
+
+function openPanel() {
+  document.getElementById("whatPanel").style.display = "flex";
+  document.getElementById("lineCount").textContent = "";
+  document.getElementById("fileSize").textContent = "";
+}
+
+function closePanel() {
+  document.getElementById("whatPanel").style.display = "none";
+}
+
+function revealStat(statId, button) {
+  button.disabled = true;
+  const html = document.documentElement.outerHTML;
+  let target, isFloat = false;
+
+  if(statId === "lineCount") {
+    target = html.split("\n").length;
+  } else {
+    const bytes = new Blob([html]).size;
+    target = parseFloat((bytes/1024).toFixed(2));
+    isFloat = true;
+  }
+
+  animateNumber(statId, target, 2500, isFloat);
+}
+
+function animateNumber(id, target, duration, isFloat) {
+  const el = document.getElementById(id);
+  const start = performance.now();
+
+  function update(time) {
+    let progress = Math.min((time-start)/duration, 1);
+    if(progress > slowStart) {
+      const local = (progress-slowStart)/(1-slowStart);
+      progress = slowStart + (1-Math.pow(1-local,easingPower))*(1-slowStart);
+    }
+
+    const value = progress*target;
+    el.textContent = isFloat ? value.toFixed(2)+" KB" : Math.floor(value);
+
+    if(progress<1) requestAnimationFrame(update);
+    else el.textContent = isFloat ? target.toFixed(2)+" KB" : target;
+  }
+
+  requestAnimationFrame(update);
+}
+</script>
+
+</body>
+</html>
