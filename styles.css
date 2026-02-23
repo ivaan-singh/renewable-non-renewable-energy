@@ -9,7 +9,6 @@ body {
 /* ----------- Header ----------- */
 .header-container {
   text-align: center;
-  margin-top: 40px;
 }
 
 .bubble-inline {
@@ -30,11 +29,12 @@ body {
   font-weight: bold;
   font-size: 20px;
   background: linear-gradient(135deg,#64B5F6,#BA68C8);
-  color: white;
+  color: #222;
   border-radius: 40px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.2);
   transition: 0.3s;
 }
+
 
 .what-it-took-banner:hover {
   transform: translateY(-4px);
@@ -42,11 +42,12 @@ body {
 
 /* ----------- Stat Page ----------- */
 .title-bubble {
-  background: white;
-  padding: 15px 35px;
+  display: inline-block;          /* shrink to content */
+  padding: 15px 30px;
   border-radius: 25px;
   font-size: 28px;
   font-weight: bold;
+  background: white;
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   margin-top: 40px;
 }
