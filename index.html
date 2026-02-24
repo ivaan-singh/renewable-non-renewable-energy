@@ -345,6 +345,12 @@ ul, ol { margin-top: 10px; margin-left: 25px; line-height: 1.6; }
 
   requestAnimationFrame(update);
 }
+
+window.addEventListener("load", function() {
+    if (typeof createFloatingBubbles === "function") {
+      createFloatingBubbles();
+    }
+  });
 </script>
 
 </body>
